@@ -1,0 +1,26 @@
+{
+    "produtos": [
+    {
+    "id": 1,
+    "descricao": "Monitor",
+    "estoque": 10,
+    "valor": 367.00,
+    "imagem": "../img/monitor.jpg"
+    },
+    {
+    "id": 2,
+    "descricao": "Mouse",
+    "estoque": 10,
+    "valor": 99.90,
+    "imagem" : "../img/mouse.jpg"
+    },
+    {
+    "id": 3,
+    "descricao": "Teclado",
+    "estoque": 10,
+    "valor": 110.00,
+    "imagem" : "../img/teclado.jpg"
+    }
+    ]
+   }
+   

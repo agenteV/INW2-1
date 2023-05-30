@@ -1,5 +1,14 @@
 {
+  "name": "tecstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "prompt-sync": "^4.2.0"
+    "json-server": "^0.17.3"
   }
 }
