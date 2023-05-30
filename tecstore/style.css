@@ -1,0 +1,154 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ body {
+   font-family: Arial, sans-serif;
+   background-color: #f0f0f0;
+   color: #333;
+ }
+ 
+ .container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+ }
+ 
+ header {
+   background-color: rgb(255, 230, 0);
+   padding: 10px 0;
+ }
+ 
+ nav ul {
+   list-style-type: none;
+   text-align: center;
+ }
+ 
+ nav ul li {
+   display: inline-block;
+   margin: 0 10px;
+ }
+ 
+ nav ul li a {
+   color: #fff;
+   text-decoration: none;
+   font-weight: bold;
+   padding: 5px 10px;
+ }
+
+ .logo {
+   display: flex;
+   align-items: center;
+ }
+
+ .logo img {
+   max-width: 100px;
+ }
+
+ footer {
+   background-color: #333;
+   padding: 10px 0;
+   color: #fff;
+   text-align: center;
+ }
+ 
+ #presentation {
+   font-weight: bolder;
+   text-align: center;
+   padding: 40px;
+   background-color: #fff;
+   margin: 20px 0;
+ }
+ 
+ #presentation h1 {
+   margin-bottom: 20px;
+ }
+ 
+ .image-descont {
+   position: relative;
+ }
+ 
+ .image-descont img {
+   display: block;
+   width: 100%;
+   height: 350px;
+ }
+ 
+ .small-images {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+ }
+ 
+ .small-images img {
+   width: 30%;
+   max-width: 200px;
+   margin: 0 10px;
+ }
+ 
+#contact {
+   text-align: center;
+   padding: 40px;
+   background-color: #fff;
+   margin: 20px 0;
+ }
+ 
+ #contact h1 {
+   margin-bottom: 20px;
+ }
+ 
+ form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ form label,
+ form input,
+ form textarea {
+   margin-bottom: 10px;
+   width: 100%;
+   max-width: 400px;
+ }
+ 
+ form textarea {
+   height: 150px;
+ }
+ 
+ form button {
+   padding: 10px 20px;
+   background-color: #333;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+ }
+
+ .logo {
+   display: flex;
+   align-items: center;
+ }
+
+ .logo img {
+   max-width: 100px;
+ }
+ 
+ #about {
+   padding: 40px;
+   background-color: #fff;
+   margin: 20px 0;
+ }
+ 
+ #about h1 {
+   margin-bottom: 20px;
+ }
+
+ .logo {
+   display: flex;
+   align-items: center;
+ }
+
+ .logo img {
+   max-width: 100px;
+ }
