@@ -50,6 +50,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="sobre.html">Quem somos</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tecfit.html">Tecfit</a>
+              </li>
               <form class="d-flex" role="search";>
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
@@ -96,12 +99,19 @@
       <form>
         <label for="name">Nome:</label>
         <input type="text" id="name" name="name" required>
+
+        <label for="name">Numero:</label>
+        <input type="text" id="numero" name="numero" required>
         
         <label for="email"> Email:</label>
         <input type="email" id="email" name="email" required>
         
         <label for="message"> Mensagem:</label>
         <textarea id="message" name="message" required></textarea>
+        <br>
+
+        <label for="customRange2" class="form-label">Quanto gostou de nosso site?   </label>
+<input type="range" class="form-range" min="0" max="5" id="customRange2">
         
         <button type="submit">Enviar</button>
       </form><br>
