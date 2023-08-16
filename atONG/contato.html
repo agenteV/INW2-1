@@ -98,25 +98,64 @@
         <center>
       <h1>Fale conosco</h1>
 
-      <form>
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name" required>
+      <form class="row g-3">
+<center>
+        <div class="col-md-6">
+      
+          <label for="inputEmail4" class="form-label"><h5>Email</h5></label>
+      
+          <input type="email" class="form-control" id="inputEmail4">
+      
+        </div>
+      </center>
+      
+        <div class="col-12">
+      
+          <label for="inputAddress" class="form-label"><h5>Endereço</h5></label>
+      
+          <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos atletas 5544">
+      
+        </div>
+      
+          <div class="col-12">
+        
+            <label for="inputAddress2" class="form-label"><h5>Mensagem</h5></label>
+        
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Eu amei o site!">
+        
+          </div>
+          <label for="customRange2" class="form-label">Quanto gostou de nosso site?   </label>
+          <input type="range" class="form-range" min="0" max="5" id="customRange2">
+                
+      
+        <div class="col-md-6">
+      
+          <label for="inputCity" class="form-label"><h5>Cidade</h5></label>
+      
+          <input type="text" class="form-control" id="inputCity">
+      
+        </div>
 
-        <label for="name">Numero:</label>
-        <input type="text" id="numero" name="numero" required>
-        
-        <label for="email"> Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="message"> Mensagem:</label>
-        <textarea id="message" name="message" required></textarea>
-        <br>
 
-        <label for="customRange2" class="form-label">Quanto gostou de nosso site?   </label>
-<input type="range" class="form-range" min="0" max="5" id="customRange2">
-        
-        <button type="submit">Enviar</button>
-      </form><br>
-    </center>
-    </section>
-  </main>
+      
+        <div class="col-md-4">
+      
+          <label for="inputState" class="form-label"><h5>Estado</h5></label>
+      
+          <select id="inputState" class="form-select">
+      
+            <option selected>SP</option>
+      
+            <option>São Paulo</option>
+      
+            <option>Rio de Janeiro</option>
+      
+            <option>Minas Gerais</option>
+
+<button type="submit">Enviar</button>
+      
+  
+      
+          </select>
+      
+        </div>
